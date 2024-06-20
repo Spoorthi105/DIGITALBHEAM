@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="digital1.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoImg.png" class="logo" position="page-bottom-right-end">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Intrest</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contacts</a></li>
+                    <i class="fas" onlcick="closemenu()"></i>
+                </ul>
+                <i class="fas1" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+
+        <div class="header-text">
+            <p>Software Developer Trainee</p>
+            <h1>hi I am <span>Spoorthi B</span><br>from shivamogga</h1>
+        </div>
+    </div>
+    <!-- -------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abou-col-1">
+                    <img src="images/flipbackgroundImage.png" alt="not loded">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus est alias veritatis molestiae
+                        vitae ab numquam inventore aut. Incidunt officia repudiandae quibusdam harum, nobis corrupti ex
+                        ab reiciendis doloribus deleniti beatae fuga non. Dignissimos culpa aliquam perspiciatis quas
+                        reiciendis? Itaque qui id quo, esse obcaecati ex sint possimus voluptates veniam!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Java</span><br></li>
+                            <li><span>Python</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                            <li><span>Intern at Dgital Bheam</span><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MCA</span><br>NMIT Bengaluru</li>
+                            <li><span>BSc</span><br>KFGC Shikaripura</li>
+                            <li><span>PUC</span><br>kumadvathi High School Shikaripura</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------service-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my Interests</h1>
+            <div class="services-list">
+                <div>
+                    <link href="https://tse3.mm.bing.net/th?id=OIP.kC13aliqsr_emOKtnMomYgHaHa&pid=Api&P=0&h=180"></a>
+                    <h2>Software Developer</h2>
+                    <p>write SOME LINES HERE ABOUT WEB</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Software Testing</h2>
+                    <p>write SOME LINES HERE ABOUT WEB</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/UX developer</h2>
+                    <p>write SOME LINES HERE ABOUT WEB</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio    -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work1.jpg">
+                    <div class="layer">
+                        <h3>POllution Control By Nano-Technology. </h3>
+                        <p> A dissertation work on the the various ,measures taken by using Nano-Technology.</p>
+                        <link rel="#"
+                            href="">
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="/images/work2.jpeg">
+                    <div class="layer">
+                        <h3>Laptop price Prediction in Data Science. </h3>
+                        <p> Using the various MAchine Learning alogorotms the prediction of Laptop price is done.</p>
+                        <a href="#" i
+                            class="https://thumbs.dreamstime.com/b/nanotechnology-icon-trendy-logo-concept-white-background-artificial-intelligence-collection-suitable-use-web-apps-131186295.jpg">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            <!-- contacts -->
+            <div id="contact">
+                <div class="continer">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">COntact Me</h1>
+                            <p>spoorthib@gmail.com</p>
+                            <p>+91 0000111177</p>
+                            <div class="social-icons">
+                                <a href="https://www.instsagram.in/">Instagram Link</a><br>
+                            </div>
+                            <a href="/images/spoorthi33_2k24 (1).docx" Download Class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-rigt">
+                            <form name="submit-to-google-sheet"> 
+                                <input type="text" name="Name" placeholder="Write Your Name" required>
+                                <input type="text" name="email" placeholder="Write Your E-mail" required>
+                                <textarea name="Message" rows="5" placeholder="Your Mesage"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+
+                            </form>
+                            <span id="msg">hello</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+<div class="copyright">
+    <p> Copyright @ Spoorthi made with symbol----</p>
+</div>
+    </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+   
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL ='https://script.google.com/macros/s/AKfycbwNoAMJDEVQNtgwoN9oVfgiTS2QC05ghhTjvsUTm1bGr-nlOZ1TEN5jT5bSrPhwMETd_A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListner('submit',e =>{
+            e.preventDefault()
+            fetch(scriptURL,{ method:'POST', body:new FormData(form)})
+            .then(response=>{
+                msg.innerHTML = "messgse Sent Succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+          
+            .catch(console.error('Error!',error.message))
+        })
+    </script>
+</body>
+
+</html>
